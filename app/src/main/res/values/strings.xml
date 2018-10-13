@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CS478Proj2</string>
+    <string name="image_content">Car</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="toyota">https://www.toyota.com/camry/</string>
+    <string name="bmwm5">https://www.bmwusa.com/vehicles/m-models/m5.html</string>
+    <string name="honda">https://automobiles.honda.com/accord-sedan</string>
+    <string name="infinitiq50">https://www.infinitiusa.com/vehicles/sedans/q50.html"</string>
+    <string name="maseratighibli">https://www.maseratiusa.com/maserati/us/en/models/ghibli</string>
+    <string name="jaguarftype">https://www.jaguarusa.com/all-models/f-type/index.html</string>
+
+</resources>
