@@ -95,9 +95,11 @@ class ImageAdapter extends BaseAdapter {
             "Jaguar F-Type","Maserati Ghibli",
             "Infiniti Q50", "Honda Accord",
     };
-
+    private LayoutInflater inflater;
     public ImageAdapter(Context c) {
         mContext = c;
+        inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
     }
     public Object getItem(int position) {
         return null;
@@ -116,9 +118,7 @@ class ImageAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View view;
-        LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         if (convertView == null) {
-            view = new View(mContext);
             view = inflater.inflate(R.layout.gridview_layout,null);
             TextView carModel = (TextView) view.findViewById(R.id.gridview_text);
             ImageView carPic = (ImageView) view.findViewById(R.id.gridview_image);

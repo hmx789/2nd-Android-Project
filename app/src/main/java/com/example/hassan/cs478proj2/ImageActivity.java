@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class ImageActivity extends AppCompatActivity {
-    public int resid= -1;
+    private int resid= -1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

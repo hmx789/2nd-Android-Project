@@ -14,7 +14,7 @@ public class ListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
         ListView listView = (ListView) findViewById(R.id.listView);
-        String[] adapterStrings = {"Could", "not","Find"};
+        String[] adapterStrings = {"Could ", "not"," find"};
         String[] toyotaDealers = {"Team Toyota\n400 Indianapolis Blvd,\n" + "Schererville, IN 46375", "Bredemann Toyota/Scion\n1301 W Dempster St.,\n" + "Park Ridge, IL 60068", "Oakbrook Toyota in Westmont\n" + "550 E Ogden Ave,\n" + "Westmont, IL 60559"};
         String[] jaguarDealers = {"Imperial Motors Jaguar of Lake Bluff\n" + "150 Skokie Highway,\n" + "Lake Bluff, IL 60044", "Howard Orloff Jaguar, Volvo Cars, Land Rover\n" + "1924 N Paulina St,\n" + "Chicago, IL 60622", "Jaguar Land Rover Northfield\n" + "670 Frontage Rd,\n" + "Northfield, IL 60093"};
         String[] infinitiDealers = {"Berman INFINITI Chicago\n" + "640 N La Salle Dr,\n" + "Chicago, IL 60654", "INFINITI of Clarendon Hills\n" + "415 Ogden Ave,\n" + "Clarendon Hills, IL 60514", "INFINITI of Naperville\n" + "1550 W Ogden Ave,\n" + "Naperville, IL 60540"};
